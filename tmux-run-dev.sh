@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name='bun-project'
+name='kiki-core-stack-socket-io-server'
 
 if ! tmux ls | grep -q "^$name:"; then
 	tmux new-session -ds "$name"
